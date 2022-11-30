@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/drawable/detail_bg_back.xml" value="0.1875" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/drawable/detail_ic_back.xml" value="0.1875" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/drawable/list_bgitem.xml" value="0.1875" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/drawable/list_borderbottom.xml" value="0.1875" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/drawable/main_bgitem.xml" value="0.1875" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/layout/activity_tac_pham.xml" value="0.19814814814814816" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/layout/itemtacpham.xml" value="0.25" />
+        <entry key="..\:/AndroidJava/Danhsachtacgia/app/src/main/res/layout/tacgiaitem.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
