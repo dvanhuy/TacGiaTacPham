@@ -1,6 +1,8 @@
 package com.example.danhsachtacgia;
 
-public class TacPham {
+import java.io.Serializable;
+
+public class TacPham implements Serializable {
     String idtacgia,ten,noidung;
     float sosao;
 

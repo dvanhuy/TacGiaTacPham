@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 
@@ -33,6 +34,16 @@ public class ListTacPham extends AppCompatActivity {
         lvitem=findViewById(R.id.listviewtacpham);
         adapterTacPham = new AdapterTacPham(this,R.layout.itemtacpham,tacPhams);
         lvitem.setAdapter(adapterTacPham);
+        lvitem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(ListTacPham.this,ChiTietTacPham.class);
+                Bundle bundle1 = new Bundle();
+                bundle1.putSerializable("data",tacPhams.get(i));
+                intent.putExtra("bundle",bundle1);
+                startActivity(intent);
+            }
+        });
     }
 
     public void initData(String id){
